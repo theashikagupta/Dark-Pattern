@@ -1,0 +1,99 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;
+    padding: 10px;
+}
+
+#content{
+    color: black;
+    background-image: url(Darkpattern.jpg); /* Replace with the actual path to your image */
+    background-size: contain; /* Adjust as needed (cover, contain, etc.) */
+    background-repeat: no-repeat; /* Ensure the background doesn't repeat */
+    height: 100vh; /* Set the height of the container (viewport height) */
+    display: flex;
+    }
+    
+.navbar{ 
+    text-align: left;
+    left: 20px;
+}
+
+.navbar ul {
+    list-style: none;
+    padding-left: 2em;
+    display: inline;
+}
+
+.navbar li{
+    display: inline;
+    padding-right: 2em;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+.button-container {
+    position: fixed;
+    top: 10px; /* Adjust the top distance */
+    right: 10px; /* Adjust the right distance */
+  }
+
+  .button {
+    margin-left: 10px; /* Adjust the space between buttons */
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black ;
+    background-color: rgb(231, 213, 213);
+    border: none;
+    border-radius: 20px;
+    font-size: 15px;
+    cursor: pointer;
+  }
+
+.header {
+    background-color: white;
+    color: black;
+    text-align: left;
+    font-weight: bold;
+    font-size: 45px;
+    width: fit-content;
+    padding-left: 0.7em;
+}
+
+.header p {
+    line-height: 0.5;
+}
+
+.footer {
+    background-color: white;
+    color: black;
+    text-align: left;
+    padding-left: 2em;
+    position: fixed;
+    width: 100%;
+    margin-bottom: 2em;
+    word-spacing: 0.5em;
+
+}
+
+.footer button{
+    border-radius: 2px;
+    background-color: rgb(246, 169, 14);
+    color: #080202;
+    font-size: 15px;
+    cursor: pointer;
+  
+}
+  button:hover{
+    background-color: bisque;
+    transition: background-color 0.8s;
+  }
+
+  .footer button:hover{
+    background-color: rgb(211, 196, 255);
+    transition: background-color 0.8s;
+
+  }
+ 
