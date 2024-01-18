@@ -7,7 +7,7 @@ body {
 #content{
     color: black;
     background-image: url(Darkpattern.jpg); /* Replace with the actual path to your image */
-    background-size: contain; /* Adjust as needed (cover, contain, etc.) */
+    background-size: cover; /* Adjust as needed (cover, contain, etc.) */
     background-repeat: no-repeat; /* Ensure the background doesn't repeat */
     height: 100vh; /* Set the height of the container (viewport height) */
     display: flex;
@@ -53,7 +53,6 @@ body {
   }
 
 .header {
-    background-color: white;
     color: black;
     text-align: left;
     font-weight: bold;
@@ -67,7 +66,6 @@ body {
 }
 
 .footer {
-    background-color: white;
     color: black;
     text-align: left;
     padding-left: 2em;
